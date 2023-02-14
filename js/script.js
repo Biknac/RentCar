@@ -16,10 +16,10 @@ function start(){
   let ih = window.innerHeight;
   let hr = window.location.href;
 
-  if ( (iw < 1280 || ih < 720) && hr == "./RentCar/"){
+  if ( (iw < 1280 || ih < 720) && hr == "https://biknac.github.io/RentCar/"){
    window.location.href = './mobile';
 
-  } else if ( iw >= 1280 && ih >= 720 && hr == "./RentCar/mobile"){
+  } else if ( iw >= 1280 && ih >= 720 && hr == "https://biknac.github.io/RentCar/mobile"){
     window.location.href = './';
    }
 

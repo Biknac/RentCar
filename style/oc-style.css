@@ -44,7 +44,7 @@
 /* Стрелка влево */
 .slick-arrow.slick-prev{
     left: -60px;
-    background-image: url('/assets/arrow.png');
+    background-image: url('../assets/arrow.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@
 /* Стрелка вправо */
 .slick-arrow.slick-next{
     right: -60px;
-    background-image: url('/assets/arrow.png');
+    background-image: url('../assets/arrow.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,19 +275,19 @@
 }
 
 .audi_a8_2017{
-    background-image: url('./assets/audi_a8.png');
+    background-image: url('../assets/audi_a8.png');
 }
 
 .bmw_x3_2017{
-    background-image: url('./assets/bmw_x3.png');
+    background-image: url('../assets/bmw_x3.png');
 }
 
 .vw_passat_2017{
-    background-image: url('./assets/vw_passat.png');
+    background-image: url('../assets/vw_passat.png');
 }
 
 .ms_benz_e_class_2017{
-    background-image: url('./assets/Mercedes-Benz_S-Class.png');
+    background-image: url('../assets/Mercedes-Benz_S-Class.png');
 }
 
 .oc-button-accept{

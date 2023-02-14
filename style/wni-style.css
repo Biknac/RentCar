@@ -1,0 +1,70 @@
+.who-needs-it{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-text-stroke: 0.25px black;
+    height: 750px;
+    text-align: center;
+
+}
+
+.wni-title{
+    font-size: 40px;
+    line-height: 1.1;
+    bottom: 100px;
+    opacity: 0;
+    transition: all 1.5s ease 0s;
+} 
+
+
+.wni-title._active{
+    opacity: 1;
+}
+
+.canister div{
+    line-height: 100%;
+    display: inline-block;
+    margin: 40px;
+}
+
+.canister div:nth-child(2n+2) {
+    top: 40px;
+}
+
+
+._show-canister{
+    opacity: 0;
+    transition: all 1.5s ease 0s;
+}
+
+.one-can, .three-can{
+    transform: translate(0px, 25%);
+}
+
+.two-can, .four-can{
+    transform: translate(0px, -25%);
+}
+
+._show-canister ._active,
+._active ._show-canister{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+
+.number-can{
+    font-size: 35px;
+    font-weight: bold;
+    fill: black;
+}
+
+.title-can{
+    font-size: 24px;
+    font-weight: bold;
+    fill: black;
+}
+
+.content-can{
+    font-size: 20px;
+    fill: black;
+}

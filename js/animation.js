@@ -388,18 +388,16 @@ function onEntry(entry) {
       $('.oc-button-accept').removeClass('_hide-end');
       $('.oc-button-accept').addClass('_show');
       $('.slick-arrow').css('pointer-events', 'none')
-      //document.getElementsByClassName('oc-button-accept')[0].style.transform = "translate(0,0)";
       setTimeout(() => $('.oc-button-accept').removeClass('_show'), 2400);
-      setTimeout(() =>  $('.slick-arrow').css('pointer-events', 'auto'), 2700);
+      setTimeout(() =>  $('.slick-arrow').css('pointer-events', 'auto'), 2600);
       check_oc_button = 1;
-    } else if (!change.target.classList.contains('oc-button-accept')) {
-      check_oc_button = 0;
-    }
+    } 
+   
     if(change.target.classList.contains('our_cars') && !change.target.classList.contains('_active')) {
       $('.oc-button-accept').addClass('_hide-end');
-      
+      check_oc_button = 0;
     }
-
+     
   });
 }
 let options = { threshold: [0.5] };

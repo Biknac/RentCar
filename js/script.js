@@ -16,10 +16,10 @@ function start(){
   let ih = window.innerHeight;
   let hr = window.location.href;
 
-  if ( (iw < 1280 || ih < 720) && hr == "http://rentcar/"){
+  if ( (iw < 1280 || ih < 720) && hr == "./RentCar/"){
    window.location.href = './mobile.html';
 
-  } else if ( iw >= 1280 && ih >= 720 && hr == "http://rentcar/mobile.html"){
+  } else if ( iw >= 1280 && ih >= 720 && hr == "./RentCar/mobile"){
     window.location.href = './';
    }
 

@@ -210,16 +210,6 @@
 
 /* ----- 3 ----- */
 
-
-/*
-.slick-center {
-    position: relative;
-    top: -40px;
-    animation: 1s;
-}
-*/
-
-
 .slick-slide,
 .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
     transform: translate(0,0);
@@ -307,7 +297,6 @@
 }
 
 .oc-button-accept._active{
-   /* transition: all 1.5s ease 0s;*/
    width: 300px;
    transform: translate(0px, 80px);
     opacity: 1;
@@ -315,8 +304,6 @@
 
 .oc-button-accept._show{
    transition: all 1.5s ease .8s;
-
- /*   transition: all 1.5s ease 0s;*/
  }
 
  .oc-button-accept._hide-left{

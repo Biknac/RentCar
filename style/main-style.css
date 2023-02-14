@@ -294,31 +294,6 @@ body {
     transition: all .4s ease-in-out;
 }
 
-.mobile{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #e7e4e3;
-    z-index: 9999;
-}
-
-.mobile._show{
-    display: block;
-}
-
-.mobile-content{
-    margin: 0;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-
 
 @font-face {
     font-family: 'Irish Grover';

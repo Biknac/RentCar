@@ -9,24 +9,3 @@ $(document).ready(function() {
     variableWidth: true
   });
 });
-
-/*
-$('a').on('click', function (event) {
-  var $anchor = $(this)
-  $('html, body')
-  .stop()
-  .animate(
-    {
-      scrollTop: $($anchor.attr('href')).offset().top,
-    },
-    {
-      duration: 2000,
-      specialEasing: {
-        width: 'linear',
-        height: 'easeinOutCubic',
-      },
-    }
-  )
-  event.preventDefault()
-})
-*/

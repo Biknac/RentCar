@@ -122,7 +122,7 @@ body {
 }
 
 .background-intro{
-    background-image: url(/assets/giphy.webp);
+    background-image: url(./assets/giphy.webp);
     background-repeat: no-repeat;
     background-position: center center;
     /*background-attachment: fixed;*/

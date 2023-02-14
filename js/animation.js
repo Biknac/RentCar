@@ -390,7 +390,7 @@ function onEntry(entry) {
       $('.slick-arrow').css('pointer-events', 'none')
       //document.getElementsByClassName('oc-button-accept')[0].style.transform = "translate(0,0)";
       setTimeout(() => $('.oc-button-accept').removeClass('_show'), 2400);
-      setTimeout(() =>  $('.slick-arrow').css('pointer-events', 'auto'), 2600);
+      setTimeout(() =>  $('.slick-arrow').css('pointer-events', 'auto'), 2700);
       check_oc_button = 1;
     } else if (!change.target.classList.contains('oc-button-accept')) {
       check_oc_button = 0;

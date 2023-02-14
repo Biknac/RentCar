@@ -17,7 +17,7 @@ function start(){
   let hr = window.location.href;
 
   if ( (iw < 1280 || ih < 720) && hr == "./RentCar/"){
-   window.location.href = './mobile.html';
+   window.location.href = './mobile';
 
   } else if ( iw >= 1280 && ih >= 720 && hr == "./RentCar/mobile"){
     window.location.href = './';

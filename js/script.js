@@ -9,3 +9,20 @@ $(document).ready(function() {
     variableWidth: true
   });
 });
+
+window.onresize = start;
+function start(){
+  let iw = window.innerWidth;
+  let ih = window.innerHeight;
+  let hr = window.location.href;
+
+  if ( (iw < 1280 || ih < 720) && hr == "http://rentcar/"){
+   window.location.href = './mobile.html';
+
+  } else if ( iw >= 1280 && ih >= 720 && hr == "http://rentcar/mobile.html"){
+    window.location.href = './';
+   }
+
+}
+
+start();

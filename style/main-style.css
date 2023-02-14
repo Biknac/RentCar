@@ -93,10 +93,7 @@ body {
 .nav-item:visited, 
 .nav-item:hover,
 .nav-item:active  {
-    color: var(--main-text-color);
-    /*transition: opacity 0.2s linear;*/
-    /*text-shadow: 2px 2px 2px var(--second-text-color);*/
-    
+    color: var(--main-text-color);    
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -104,15 +101,9 @@ body {
     line-height: 100%;
     margin-left: 72px;
     top: 10px;
-
     transition: text-shadow .2s linear;
 }
 
-/*
-.nav-item:first-child{
-    margin-left: 0px;
-}
-*/
 .nav-item:hover{
     text-shadow: 0.1px 0.1px 2px var(--main-text-color);
 }
@@ -163,7 +154,6 @@ body {
     
 }
 
-
 .intro-title{
     color: var(--main-text-color);
     font-size: 50px;
@@ -190,8 +180,6 @@ body {
 }
 
 .button-up{
-    /*box-shadow: 1px 1px 1px 0px var(--second-text-color);
-    text-shadow: 1px 1px 1px var(--second-text-color);*/
     font-size: 25px;
     font-weight: bold;
     line-height: 48px; 
@@ -351,4 +339,33 @@ body {
     src:local('Roboto Light'),url(https://fonts.cdnfonts.com/s/12165/Roboto-Light.woff) format('woff')
 }
 
-@font-face{font-family:roboto light;font-style:italic;font-weight:300;src:local('Roboto Light'),url(https://fonts.cdnfonts.com/s/12165/Roboto-LightItalic.woff) format('woff')}@font-face{font-family:roboto medium;font-style:normal;font-weight:500;src:local('Roboto Medium'),url(https://fonts.cdnfonts.com/s/12165/Roboto-Medium.woff) format('woff')}@font-face{font-family:roboto medium;font-style:italic;font-weight:500;src:local('Roboto Medium'),url(https://fonts.cdnfonts.com/s/12165/Roboto-MediumItalic.woff) format('woff')}@font-face{font-family:roboto black;font-style:normal;font-weight:900;src:local('Roboto Black'),url(https://fonts.cdnfonts.com/s/12165/Roboto-Black.woff) format('woff')}@font-face{font-family:roboto black;font-style:italic;font-weight:900;src:local('Roboto Black'),url(https://fonts.cdnfonts.com/s/12165/Roboto-BlackItalic.woff) format('woff')}
+@font-face{
+    font-family:roboto light;
+    font-style:italic;
+    font-weight:300;
+    src:local('Roboto Light'),url(https://fonts.cdnfonts.com/s/12165/Roboto-LightItalic.woff) format('woff')
+}
+@font-face{
+    font-family:roboto medium;
+    font-style:normal;
+    font-weight:500;
+    src:local('Roboto Medium'),url(https://fonts.cdnfonts.com/s/12165/Roboto-Medium.woff) format('woff')
+}
+@font-face{
+    font-family:roboto medium;
+    font-style:italic;
+    font-weight:500;
+    src:local('Roboto Medium'),url(https://fonts.cdnfonts.com/s/12165/Roboto-MediumItalic.woff) format('woff')
+}
+@font-face{
+    font-family:roboto black;
+    font-style:normal;
+    font-weight:900;
+    src:local('Roboto Black'),url(https://fonts.cdnfonts.com/s/12165/Roboto-Black.woff) format('woff')
+}
+@font-face{
+    font-family:roboto black;
+    font-style:italic;
+    font-weight:900;
+    src:local('Roboto Black'),url(https://fonts.cdnfonts.com/s/12165/Roboto-BlackItalic.woff) format('woff')
+}
